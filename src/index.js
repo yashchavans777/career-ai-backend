@@ -14,7 +14,7 @@ console.log("ERR: Express failed to communicate with DB", error);
   })
 
 app.listen(process.env.PORT || 8000,()=>{
-    console.log(`server is running at port: ${process.env.PORT || 8000`);
+    console.log(`server is running at port: ${process.env.PORT || 8000}`);
     
 })
 
